@@ -1,0 +1,11 @@
+.vault_pass*
+*.vault_pass
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+secrets/
+*.retry
+*.log
+.vscode/
+Thumbs.db
