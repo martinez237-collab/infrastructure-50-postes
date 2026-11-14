@@ -1,0 +1,33 @@
+source /etc/network/interfaces.d/*
+
+auto lo
+iface lo inet loopback
+
+# Carte 1 - NAT VirtualBox (Internet)
+allow-hotplug enp0s3
+iface enp0s3 inet dhcp
+
+# Carte 2 - lab-srv - Zone Serveurs
+auto enp0s8
+iface enp0s8 inet static
+    address 10.50.10.1/24
+
+# Carte 3 - lab-compta - Zone Comptabilite
+auto enp0s9
+iface enp0s9 inet static
+    address 10.50.20.1/24
+
+# Carte 4 - lab-rh - Zone RH
+auto enp0s10
+iface enp0s10 inet static
+    address 10.50.30.1/24
+
+# Carte 5 - lab-users - Zone Autres utilisateurs
+auto enp0s16
+iface enp0s16 inet static
+    address 10.50.40.1/24
+
+# Carte 6 - lab-admin - Zone Administration
+auto enp0s17
+iface enp0s17 inet static
+    address 10.50.99.1/24
