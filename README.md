@@ -5,8 +5,8 @@ Projet portfolio : conception, déploiement et administration d'une infrastructu
 
 ## Avancement
 - [x] Phase 1 - Cadrage
-- [ ] Phase 2 - Conception
-- [ ] Phase 3 - Socle serveur
+- [x] Phase 2 - Conception
+- [x] Phase 3 - Socle serveur
 - [ ] Phase 4 - Annuaire
 - [ ] Phase 5 - GPO
 - [ ] Phase 6 - Ansible
