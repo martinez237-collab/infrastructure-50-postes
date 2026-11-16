@@ -1,0 +1,3 @@
+SERVERS="10.50.10.11"
+INTERFACES="enp0s8 enp0s9 enp0s10 enp0s16 enp0s17"
+OPTIONS=""
